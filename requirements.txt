@@ -3,3 +3,4 @@ mss
 wget
 opencv-python
 lxml
+vk_api
