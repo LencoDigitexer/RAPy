@@ -203,6 +203,25 @@ class Server:
                         self.send_msg(event.object.peer_id, send)
 
                     else:
+                        lst = event.object.text.split()
+                        print(lst)
+                        print(len(lst))
+                        #self.send_msg(event.object.peer_id, lst)
+                        if len(lst)==2:
+                            if lst[0] == 'скачать' or lst[0] == 'Скачать':
+                                text = "скачивается " + str(lst[1])
+                                self.send_msg(event.object.peer_id, text)
+                                file = lst[1]
+                                files = {
+                                    'file': (file, open(file, 'rb')),
+                                }
+                                anonfile = requests.post('https://anonfile.com/api/upload', files=files)
+                                anonfile = anonfile.json()
+                                text = anonfile['data']["file"]["url"]["full"]
+                                self.send_msg(event.object.peer_id, text)
+
+
+
                         if event.object.from_id == 510166866:
                             try:
                                 lst = event.object.text.split()
