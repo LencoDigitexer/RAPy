@@ -12,3 +12,40 @@
     локаль       - отправит внутренний ip-адрес компьютера
     shutdown /s  - выключит компьютер 
     shutdown /r  - перезапустит компьютер
+
+УСТАНОВКА
+------------
+Зависимости:
+
+    Python 3.7
+    Библиотеки requirements.txt
+
+Введите в терминале
+```bash
+https://github.com/LencoDigitexer/RAPy.git
+cd RAPy
+pip install -r requirements.txt
+```
+Отредактируйте файл tok.py
+```python
+token = "токен группы"
+id_id = id группы
+admin = id беседы или человека для оповещения при старте программы
+```
+
+ЗАПУСК
+------------
+Введите в терминале
+```bash 
+python3.7 server.py
+```
+Находясь в корневой папке RAPy
+
+Компиляция
+------------
+Введите в терминале
+```bash 
+pip3.7 install pyinstaller
+pyinstaller -F server.py
+```
+Находясь в корневой папке RAPy
