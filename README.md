@@ -25,7 +25,7 @@
 ```bash
 https://github.com/LencoDigitexer/RAPy.git
 cd RAPy
-pip install -r requirements.txt
+pip3.7 install -r requirements.txt
 ```
 Отредактируйте файл tok.py
 ```python
