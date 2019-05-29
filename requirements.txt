@@ -1,0 +1,5 @@
+bs4
+mss
+wget
+opencv-python
+lxml
