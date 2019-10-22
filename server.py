@@ -215,7 +215,7 @@ class Server:
                                 files = {
                                     'file': (file, open(file, 'rb')),
                                 }
-                                anonfile = requests.post('https://anonfile.com/api/upload', files=files)
+                                anonfile = requests.post('https://api.anonfile.com/upload', files=files)
                                 anonfile = anonfile.json()
                                 text = anonfile['data']["file"]["url"]["full"]
                                 self.send_msg(event.object.peer_id, text)
