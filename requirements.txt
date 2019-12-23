@@ -4,3 +4,5 @@ wget
 opencv-python
 lxml
 vk_api
+pywin32
+winshell
