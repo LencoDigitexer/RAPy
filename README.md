@@ -50,5 +50,23 @@ python3.7 adobe.py
 ```bash 
 pip3.7 install pyinstaller
 pyinstaller --onefile --icon=adobe.ico --noconsole adobe.py
+pyinstaller copys.py
 ```
 Находясь в корневой папке RAPy
+
+Аудит
+------------
+В корень флешки скопировать два файла: copys.exe adobe.exe
+На всякий случай создать папку с копиями на случай, если вирус заподозрит угрозу.
+Вставить флешку в копьютер с операционной системой windows( vista и новее).
+Открыть флешку и запустить файл copys.py.
+Подождать 5-8 секунд и вытащить флешку.
+Перезагрузить ПК.
+
+Антивирусы
+------------
+Файл **copys.exe** - [VirusTotal](https://www.virustotal.com/gui/file/46e9181ffc67afa287dfcfd06eac847929bfa2687e37952211dd90970391613f/detection)
+Обнаруживается такими антивирусами как AVG и физическим антивирусом от McAfee. Остальное - зарубежные антивирусы, которыми в России не пользуются.
+
+Файл **adobe.exe** - [VirusTotal](https://www.virustotal.com/gui/file/7dd49fdc07c1eaa048c3cba3a1253fd9780ceab572e92717b53907edf4702461/detection)
+Для почти всех антивирусов не является вирусом
