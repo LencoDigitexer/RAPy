@@ -38,7 +38,7 @@ admin = id беседы или человека для оповещения пр
 ------------
 Введите в терминале
 ```bash 
-python3.7 server.py
+python3.7 adobe.py
 ```
 Находясь в корневой папке RAPy
 
@@ -47,6 +47,6 @@ python3.7 server.py
 Введите в терминале
 ```bash 
 pip3.7 install pyinstaller
-pyinstaller -F server.py
+pyinstaller -F adobe.py
 ```
 Находясь в корневой папке RAPy
