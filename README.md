@@ -1,5 +1,10 @@
  RAPy - помощь сис.админу
 =============================
+
+<p align="center">
+  <img src="https://sun9-12.userapi.com/impg/EqTtrZa4_56XCJZLQIiF03rQwQlHvmVRmfZsnw/x7BNa_5xRd4.jpg?size=1280x905&quality=96&proxy=1&sign=b470093901d51e89e0dd6b7610243fe9" alt="Sublime's custom image"/>
+</p>
+
 Что это?
 ------------
 Это инструмент для упрощения работы системного администратора.
