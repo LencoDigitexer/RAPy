@@ -5,6 +5,10 @@
   <img src="https://sun9-12.userapi.com/impg/EqTtrZa4_56XCJZLQIiF03rQwQlHvmVRmfZsnw/x7BNa_5xRd4.jpg?size=1280x905&quality=96&proxy=1&sign=b470093901d51e89e0dd6b7610243fe9" alt="Sublime's custom image"/>
 </p>
 
+Известные проблемы
+------------
+Перестал работать anonfiles.com без VPN подключения. Проект заморожен, спользовать только в целях архивного кода и просмотра его реализации.
+
 Что это?
 ------------
 Это инструмент для упрощения работы системного администратора.
